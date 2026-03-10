@@ -1,0 +1,82 @@
+# --- 系统文件 ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.pyre_configuration
+.pytype/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Node/Frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+.eslintcache
+.stylelintcache
+.vite/
+*.tsbuildinfo
+
+# --- 环境变量/密钥 ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secret
+
+# --- IDE (VS Code, JetBrains, etc.) ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# --- uv (Python 包管理) ---
+# uv.lock 应该保留在版本控制中
+.uv/
